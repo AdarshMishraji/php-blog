@@ -36,9 +36,8 @@ require_once "includes/functions.inc.php";
   <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,700i,800&display=swap" rel="stylesheet">
 
   <!--  Bootstrap CSS -->
-  <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
   <!-- Font Awesome -->
-  <!-- <link rel="stylesheet" href="assets/fa/font-awesome.min.css"> -->
   <script src="https://kit.fontawesome.com/07c04c5cdb.js" crossorigin="anonymous"></script>
   <!-- CSS -->
   <link rel="stylesheet" href="../css/style.css">

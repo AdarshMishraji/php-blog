@@ -49,7 +49,7 @@ $result = mysqli_query($connection, $q);
                             </h4>
                         </div>
                         <div style="padding:0px 0px 10px 0px; border-radius: 20px;">
-                            <img src=<?php echo '../images/' . $row['image'] ?> height="200px" width="100%" style="object-fit: cover; border-radius: 0px 0px 10px 10px;" />
+                            <img src=<?= '../images/' . $row['image'] ?> height="200px" width="100%" style="object-fit: cover; border-radius: 0px 0px 10px 10px;" />
                         </div>
                         <div class="card-body text-muted">
                             <h6 class="card-subtitle mb-1">Posted by:
@@ -73,7 +73,7 @@ $result = mysqli_query($connection, $q);
                             $link = str_replace("myPosts.php", "post.php", $_SERVER["PHP_SELF"]);
                             $link .= '?postid=' . $row['id'];
                             ?>
-                            <a href="<?php echo $link ?>" class="card-link text-info">Read
+                            <a href="<?= $link ?>" class="card-link text-info">Read
                                 more...</a>
                         </div>
                     </div>

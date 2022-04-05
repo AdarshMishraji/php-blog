@@ -55,7 +55,7 @@ if (isset($_POST["updatePost"])) {
       <!-- Alets -->
       <?php if (sizeof($errors)) : ?>
         <?php foreach ($errors as $error) :  ?>
-          <?php echo showAlert($error, 'danger'); ?>
+          <?= showAlert($error, 'danger'); ?>
       <?php
         endforeach;
       endif; ?>

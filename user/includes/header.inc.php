@@ -29,7 +29,7 @@ require_once "includes/functions.inc.php";
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>PHP BLOG : <?php echo $PAGE_TITLE ?>
+  <title>PHP BLOG : <?php $PAGE_TITLE ?>
   </title>
 
   <!-- Google Fonts -->

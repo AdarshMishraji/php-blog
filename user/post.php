@@ -58,7 +58,7 @@ if (isset($postId) && !empty($postId)) {
         <div class="jumbotron">
           <h1 class="display-3"><?= $post['title'] ?>
           </h1>
-          <image src='<?= '../images/' . $post['image'] ?>' height='250px' width='250px' />
+          <image src='<?= '../images/' . $post['image'] ?>' height='250px' width='100%' style="object-fit: contain; border-radius: 5px;" />
           <p class="lead"><?= $post['body'] ?>
           </p>
           <hr class="my-4">

@@ -8,12 +8,12 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarToggle">
       <ul class="nav navbar-nav ">
         <?php if (!Authenticated()) : ?>
-        <li class="nav-item">
-          <a class="nav-link" href="login.php">Sign in</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="register.php">Register</a>
-        </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.php">Sign in</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="register.php">Register</a>
+          </li>
         <?php else : ?>
           <li class="nav-item">
             <a class="nav-link" href="#">Profile</a>

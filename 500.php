@@ -20,7 +20,6 @@ if (empty($DB_ERROR)) {
       <img src="assets/img/database.jpg" alt="Database Error" srcset="Dabase Connection Eroor :(" class="img img-fluid">
 
       <?php
-      // var_dump($DB_ERROR);
       foreach ($DB_ERROR as $key => $value) {
         echo "<h3>" . $value . "</h3>";
       }

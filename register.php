@@ -37,8 +37,6 @@ if (isset($_POST['register'])) {
     // Register New User
     if (sizeof($errors) < 0 || sizeof($errors) == 0) {
 
-      // array_push($debug, $firstName, $lastName, $email, $password, $rePassword, $agree);
-
       // check both password are same or not
       if ($password !== $rePassword) {
         array_push($errors, "Please check password.");
@@ -97,7 +95,6 @@ if (isset($_POST['register'])) {
 
 <div class="row mt-5 ml-1 mr-1">
   <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-10 offset-sm-1">
-    <!-- <div class="card p-3"> -->
     <h3 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Welcome</h3>
     <p class="text-secondary">It only takes a few seconds to create your account
     </p>
@@ -174,7 +171,6 @@ if (isset($_POST['register'])) {
 
     </form>
   </div>
-  <!-- </div> -->
 </div>
 
 
